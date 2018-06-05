@@ -1,7 +1,7 @@
 Package: alterryx
 Type: Package
 Title: An 'API' Client for the 'Alteryx' Gallery
-Version: 0.3.0
+Version: 0.3.1
 Author: Michael Treadwell
 Maintainer: Michael Treadwell <michael.treadwell@interworks.com>
 Description: A tool to access each of the 'Alteryx' Gallery 'API' endpoints.
@@ -21,6 +21,6 @@ RoxygenNote: 6.0.1
 Suggests: knitr, rmarkdown
 VignetteBuilder: knitr
 NeedsCompilation: no
-Packaged: 2017-11-01 17:57:48 UTC; mtreadwell
+Packaged: 2018-06-05 13:11:44 UTC; mtreadwell
 Repository: CRAN
-Date/Publication: 2017-11-01 18:04:58 UTC
+Date/Publication: 2018-06-05 13:24:25 UTC
