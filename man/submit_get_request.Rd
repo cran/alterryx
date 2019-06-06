@@ -4,7 +4,9 @@
 \alias{submit_get_request}
 \title{Submit GET Request}
 \usage{
-submit_get_request(gallery, endpoint, request_params, ...)
+submit_get_request(gallery, endpoint, request_params,
+  alteryx_api_key = getOption("alteryx_api_key"),
+  alteryx_secret_key = getOption("alteryx_secret_key"), ...)
 }
 \arguments{
 \item{gallery}{URL for your Alteryx Gallery}
@@ -12,6 +14,10 @@ submit_get_request(gallery, endpoint, request_params, ...)
 \item{endpoint}{The api endpoint beginning and ending with "/"}
 
 \item{request_params}{List of request parameters}
+
+\item{alteryx_api_key}{Admin API key for target environment}
+
+\item{alteryx_secret_key}{Admin API secret key for target environment}
 
 \item{...}{Additional arguments passed to \code{parse_request_response}}
 }
